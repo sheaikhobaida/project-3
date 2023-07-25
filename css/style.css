@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;500;600;700;800&family=Rubik+Iso&display=swap');
+@font-face:{
+    src: url('/fonts/Lato-Light.ttf');
+    font-family: 'akr';
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-form{
+    background-color: #ced6e0;
+    width: 40%;
+    margin: 110px auto;
+    padding: 25px 40px;
+}
+body{
+    font-family: 'Rubik Iso', cursive;
+}
+.contact-form input[type=text] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #7f8c8d;
+    padding: 5px;
+    background-color: transparent;
+}
+.contact-form input[type=email]{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #7f8c8d;
+    padding: 5px;
+    background-color: transparent;
+}
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #7bed9f;
+    padding: 5px;
+    background-color: transparent;
+    resize: none;
+}
+summary{
+    color: aqua;
+    background-color: green;
+    display: inline-block;
+}
+
+}
+.abc h2{
+    color: red;
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+
+.contact-form input[type=submit]{
+    border: 1px solid #C4E538;
+    padding: 7px 20px;
+    background: transparent;
+    color: #ff4757;
+    border-radius: 7px;
+}
+.contact-form input[type=submit]:hover{
+    background: #ffa502;
+}
+.contact-form p{
+   font-family: 'akr'; 
+}
