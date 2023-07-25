@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h4{
+    color: #34495e;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;       
+}
+
+body{
+    background: #f7d794;
+}
+.section-1{
+    background-color: #2c3e50;
+    width: 85%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 75px;
+    flex-flow: wrap;
+}
+.Articel{
+    width: 30%;
+    
+}
+
+.Articel img{
+    width:45%;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+h2 {
+    text-align:center;
+    color: #7f8c8d;
+    font-size: 35px;
+}
+P{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 8px;
+    text-align: center;
+}
+.icons{
+    
+    background-color: #e15f41;
+    padding: 10px 20px;  
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.icons a{
+   color: #0fbcf9;
+    font-size: 25px;
+    padding: 0 10px;
+    
+}
