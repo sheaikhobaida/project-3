@@ -3,44 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Web site</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2d1a4c108e.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/car logo.jpg">
+    <title>Resposive website Design HTML CSS JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--boxicons link-->
+   <link rel="stylesheet"
+   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   <!--google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400;1,900&family=MuseoModerno:wght@200;400;500;600;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-   <header class="header">
-          <a href="#" class="logo"><i class="fas fa-car"></i>Cars.</a>
+      
+     <!--header-->
+     <header>
+        <a href="#" class="logo"><i class='bx bxs-stopwatch'></i>Honor</a>
 
-          <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="#" style="--i:2;">About</a>
-            <a href="#" style="--i:3;">Review</a>
-            <a href="#" style="--i:4;">Featured</a>
-            <a href="#" style="--i:5;">Contact</a>
-          </nav>
-
-          <div class="socail-media">
-                <a href="#"  style="--i:1;"><i class="fab fa-twitter"></i></a>
-                <a href="#"  style="--i:2;"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" style="--i:3;"><i class="fab fa-instagram-square"></i></a>
-
-          </div>
-   </header> 
-
-   <section class="home">
-    <div class="home-content">
-      <h1>Car Dealing Experience.</h1>
-      <h3> Readefined!</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia beatae rem ipsa autem hic, cumque quis totam alias dolore, eius in aut non atque esse optio a architecto, at unde.</p>
-      <a href="#" class="btn">Explore Cars</a>
+        <ul class="navlist">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">smartphone</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="h-main">
+             <a href="#" class="h-btn">Buy Now</a>
+             <div class="bx bx-menu" id="menu-icon"></div>
+             <div class="bx bx-moon" id="darkmood"></div>
+        </div>
+     </header> 
+          
+    <!--hero section-->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Smartwatch</h1>
+            <h4>Element serie</h4>
+            <p>Lorem ipsum dolor sit  deserunt pariatur digssimos saepe exercitationem nulla quasi saepe exercitationem nulla qu
+                <div class="hero-in">
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="images/main1.png" alt="img">
+                </div>
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="images/main2.png" alt="img">
+                </div>
+                <div class="box">
+                    <h3>White</h3>
+                    <h5>Element</h5>
+                    <img src="images/main1.png" alt="img">
+                </div>
+             </div>
+        </div>
+        <div class="hero-img">
+          <img src="images/hero.png" alt="img">
+        </div>
+    </section>
+    <div class="down-arrow">
+        <i class='bx bx-down-arrow-alt' ></i>
     </div>
-    <div class="home-img">
-      <div class="rhombus">
-        <img src="images/car.png" alt="">
-      </div>
-    </div>
-    <div class="rhombus2"></div>
-   </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    
+     <!--js file link-->
+     <script src="script.js"></script>
+    
 </body>
 </html>
